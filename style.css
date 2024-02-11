@@ -3,10 +3,11 @@
     padding: 0;
     margin: 0;
     font-family: monaco, Consolas, "Lucida Console", monospace;
-    font-size: 1.29rem;
+    font-size: 1.1rem;
     font-style: normal
 }
 
+/*Variables*/
 :root{
     /*colors*/
     --color_background_light: #FFDEAD;
@@ -46,5 +47,38 @@ main{
 
 /*INSIDE MAIN*/
 h1{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5px;
+}
 
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+/*Lista de ideias*/
+.main-lista{
+    margin-top: 35px;
+}
+
+/*IMAGEM RODA*/
+.imagem{
+    margin-top: 30px;
+}
+.img-roda-emocao{
+    width: 50vw;
 }
